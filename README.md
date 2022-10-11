@@ -1,4 +1,5 @@
 # Kokoa Clone 2022 Update
 
-HTML & CSS are so much better
+HTML & CSS are so much fun!!
+
 

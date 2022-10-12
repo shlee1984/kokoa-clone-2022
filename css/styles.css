@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "loginform.css";
 /*문장끝에 ; 넣는것을 잊지말자 */
 
 
@@ -22,7 +23,7 @@ body {font-family: 'Open Sans', sans-serif;}
 .welcome-header__title {margin-bottom: 20px;
 font-size: 25px;}
 
-.welcome-header__text {width: 15%;
+.welcome-header__text {width: 50%;
 opacity: 0.5;}
 /* welcome-header__text에 width를 넣어주는 이유는, 
 글자가 옆으로 계속 퍼지지 않기 위해서 박스의 범위를 지정해 주는것이다.

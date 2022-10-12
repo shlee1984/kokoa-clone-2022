@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+/*문장끝에 ; 넣는것을 잊지말자 */
 
 
 
 body {font-family: 'Open Sans', sans-serif;}
 
-.status-bar{display:flex;
-justify-content: center;}
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex; 
+    /*전체 양식을 가운데 정렬하기 위해 display를 flex 로 변환.*/
+    flex-direction: column; 
+    /*변환한 양식이 아랬줄로 내려가게 하기 위해 필요*/
+    align-items: center;
+    /*아래로 내려간 요소를 화면 가운데로 보내는 명령*/
+    
+}
 
-.status-bar__colum { width: 33%;}
+.welcome-header__title {margin-bottom: 20px;
+font-size: 25px;}
 
+.welcome-header__text {width: 15%;
+opacity: 0.5;}
+/* welcome-header__text에 width를 넣어주는 이유는, 
+글자가 옆으로 계속 퍼지지 않기 위해서 박스의 범위를 지정해 주는것이다.
+띄어쓰기를 하는것과 같은 효과, */
 
-.status-bar__colum:first-child span{margin-right: 5px;}
-
-.status-bar__colum:nth-child(2) { display: flex;
-justify-content: center;}
-.status-bar__colum:last-child {display: flex;
-justify-content: flex-end; align-items: center;}
-
-.status-bar__colum .fa-battery-full { margin: 0px 5px;}

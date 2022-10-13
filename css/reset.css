@@ -41,3 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+input:focus {
+	outline: none;
+} /*클릭했을때 아웃라인이 안생기도록 명령,
+input 뒤에 :누르고focus명령어 써줘야함
+input:focus { CSS Style }
+input 요소에 커서 위치해 선택된 동안의 스타일 지정.*/

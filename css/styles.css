@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
+/*CSS에서 순서가 매우중요, 폰트 ->  리셋 -> variable.
+imp[ort 순서대로 적용된다.*/
 @import "loginform.css";
 /*문장끝에 ; 넣는것을 잊지말자 */
 
+/*components*/
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
 
 
 body {font-family: 'Open Sans', sans-serif;}
